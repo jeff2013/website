@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './components/app/App';
 import * as serviceWorker from './serviceWorker';
+import * as smoothscroll from 'smoothscroll-polyfill';
+
+smoothscroll.polyfill();
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

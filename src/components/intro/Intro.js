@@ -1,9 +1,12 @@
 import React from 'react'
-import './Intro.css'
+import './Intro.scss'
+import '../../index.scss'
 
 function Intro() {
     return (
-        <p>Intro</p>
+        <div className='intro-container'>
+            <p>Jeff Chang</p>
+        </div>
     )
 }
 
