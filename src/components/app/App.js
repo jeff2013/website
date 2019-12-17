@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from '../../assets/logo.svg';
 import './App.css';
 import Intro from '../intro/Intro';
+import AboutMe from '../about-me/AboutMe';
 
 function print(text) {
   console.log(text);
@@ -11,8 +11,7 @@ function App() {
   return (
     <div className="App">
       <Intro/>
-      <Intro/>
-      <Intro/>
+      <AboutMe></AboutMe>
     </div>
   );
 }
