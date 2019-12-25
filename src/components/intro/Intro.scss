@@ -3,7 +3,7 @@
 div.intro-container {
     height: 100vh;
     width: 100vw;
-    background-color: $fiord;
+    background-color: $neo;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,6 +11,6 @@ div.intro-container {
     p {
         color: $goldenGrass;
         font-weight: lighter;
-        font-size: 200px;
+        font-size: 100px;
     }
 }

@@ -5,7 +5,7 @@ import aboutme from '../../assets/about-me.JPG';
 
 function AboutMe() {
     return (
-        <div className="about-container">
+        <div className="fullscreen-container">
             <div className="content-container">
                 <img className="about-image" src={aboutme} alt="about-me"></img>
                 <div className="center-container">

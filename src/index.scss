@@ -21,3 +21,10 @@ code {
 p.content {
   font-family: 'Montserrat', sans-serif;  
 }
+
+div.fullscreen-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
