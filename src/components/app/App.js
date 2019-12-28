@@ -3,7 +3,7 @@ import './App.css';
 import Intro from '../intro/Intro';
 import AboutMe from '../about-me/AboutMe';
 import Photography from '../photography/Photography';
-import aboutme from '../../assets/about-me.JPG';
+import Contact from '../contact/Contact';
 
 function App() {
 
@@ -26,6 +26,7 @@ function App() {
       <Intro/>
       <AboutMe></AboutMe>
       <Photography images={images}></Photography>
+      <Contact></Contact>
     </div>
   );
 }
